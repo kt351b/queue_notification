@@ -5,4 +5,4 @@ Tested on Asterisk 14.7.7 version, but it must be compatible with another Asteri
 How to use:
 - by crontab
 - or call it from Asterisk dialplan with System():
-exten => 222,n,System(python /opt/astsc.py)
+exten => 222,n,System(python /path/astsc.py)
