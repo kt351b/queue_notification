@@ -5,7 +5,7 @@ Tested on Asterisk 14.7.7 version, but it must be compatible with another Asteri
 How to use:
 - by crontab
 - or call it from Asterisk dialplan with System() application:
-exten => 222,n,System(python /path/astsc.py)
+exten => 222,n,System(python /path/queue_notificator.py)
 How it works:
 1) Get caller's ChannelID and waititme by "asterisk -x 'queue show tech-support'"
 2) Get CallerId (actually - phone number), using ChannelID from previous command by "asterisk -x 'core show channels verbose'"
