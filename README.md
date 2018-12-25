@@ -17,3 +17,7 @@ I use bash command for getting info from Asterisk, such commands as:
 - asterisk -x 'core show channels verbose' | grep tech-support | grep SIP/656148136-000705 | awk '{print $8, $9}'
 replased tech-support and SIP/656148136-000705 by variables in script.
 The output of this two last commands put in files: test_queue and test_channel. I attached those two files to Github. Now you can test this script at your local machine without calling Asterisk from CLI.
+Files:
+- test_channel - file for testing from local machine ( output of - asterisk -x 'core show channels verbose')
+- test_queue - file for testing from local machine ( output of - asterisk -x 'queue show tech-support')
+- queue_notificator.py - python script
