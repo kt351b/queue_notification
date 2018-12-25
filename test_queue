@@ -1,0 +1,10 @@
+queue-921 has 6 calls (max 10) in 'linear' strategy (0s holdtime, 0s talktime), W:0, C:0, A:0, SL:0.0% within 0s
+   Members:
+      SIP/921 (ringinuse disabled) (On Hold) has taken no calls yet
+   Callers:
+      1. SIP/656148136-000705ec (wait: 1:25, prio: 0)
+      2. SIP/656148136-000705f3 (wait: 1:24, prio: 0)
+      3. SIP/656148136-000705f4 (wait: 0:20, prio: 0)
+      1. SIP/656148136-000705ec (wait: 0:25, prio: 0)
+      2. SIP/656148136-000705f3 (wait: 0:24, prio: 0)
+      3. SIP/656148136-000705f4 (wait: 1:20, prio: 0)
